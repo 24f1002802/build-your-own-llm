@@ -1,9 +1,7 @@
 # My GPT — Built from Scratch
 
-> Assembled from the NeetCode ML course on [NeetCode.io](https://neetcode.io)
 > Built by **24f1002802** on November 4, 2026
 
-Every file in this project is code I wrote and submitted while completing the NeetCode ML course.
 The problems progressively build from gradient descent fundamentals all the way to a working GPT.
 
 ## Project Structure
@@ -48,7 +46,7 @@ python generate.py
 
 ## Course
 
-This project was built by completing the [NeetCode ML Course](https://neetcode.io/practice?tab=coreSkills&topic=Machine+Learning):
+This project was built by completing:
 - Math Foundations (gradient descent, activations, loss functions)
 - Neural Networks from scratch (neuron, backprop, MLP)
 - PyTorch fundamentals
