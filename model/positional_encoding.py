@@ -22,8 +22,11 @@ class Solution:
 
         pe = np.zeros((seq_len, d_model))
         col_idx = np.arange(0, d_model, 2)
-        row_idx = np.arange(0, seq_len)[:, None]
-        
+        row_idx = np.arange(0, seq_len)[:, None]   
+        # row_idx = np.arange(0, seq_len).reshape(-1, 1) 
+        #[:, None]: Converts the 1D array into a 2D column vector.
+        # None adds a new axis.
+
         val = np.zeros((seq_len, d_model // 2))
         scale = np.pow(10000, col_idx / d_model)
         val[:, :] = row_idx / scale
